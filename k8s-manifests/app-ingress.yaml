@@ -8,11 +8,11 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80},{"HTTPS":443}]'
     alb.ingress.kubernetes.io/ssl-redirect: '443'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:966587987476:certificate/d95b4427-136e-4a97-8c82-6ed84d607d73
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:966587987476:certificate/ad29715b-5f8e-406d-85a0-5ed0cf9f042f
 spec:
   ingressClassName: alb
   rules:
-    - host: aadi-aws.in
+    - host: hassandevsecops.online
       http:
         paths:
           - path: /
